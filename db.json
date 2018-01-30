@@ -1,41 +1,42 @@
-
 {
-   "wineryGroup":   [{
-         "error": "",
-         "idQuestion": 12,          "isHiden": 0,
-         "isRequired": 0,
-         "masterId": "",
-         "questionText": "question 1234",
-         "questionType": "combo",
-         "responseText": "",
-         "combo": 
-                     [
-                     {
-                        "optionText" : "opcion 1",
-                         "optionCheck": 1
-                      },
-                     {
-                        "optionText": "opcion 2",
-                        "optionCheck":0
-                      },
-                     {
-                        "optionText": "opcion 3",
-                        "optionCheck": 1
-                      }
-                      ]
-     },
-     {
-         "error": "",
-         "idQuestion": 13,          "isHiden": 0,
-         "isRequired": 0,
-         "masterId": "",
-         "questionText": "question 4567",
-         "questionType" : "alfa",
-         "responseText": "response 4567",
-         "combo": {}
-    }]
+    "wineryGroup": [{
+            "error": "",
+            "idQuestion": 12,
+            "isHiden": 0,
+            "isRequired": 0,
+            "masterId": "",
+            "questionText": "question 1234",
+            "questionType": "combo",
+            "responseText": "",
+            "combo": [{
+                    "optionText": "opcion 1",
+                    "optionCheck": 1
+                },
+                {
+                    "optionText": "opcion 2",
+                    "optionCheck": 0
+                },
+                {
+                    "optionText": "opcion 3",
+                    "optionCheck": 1
+                }
+            ]
+        },
+        {
+            "error": "",
+            "idQuestion": 13,
+            "isHiden": 0,
+            "isRequired": 0,
+            "masterId": "",
+            "questionText": "question 4567",
+            "questionType": "alfa",
+            "responseText": "response 4567",
+            "combo": {}
+        }
+    ]
 
 }
+
 
 
 
