@@ -1,6 +1,6 @@
 
 {
-   "WineryGroup":   [{
+   "wineryGroup":   [{
          "error": "",
          "idQuestion": 12,          "isHiden": 0,
          "isRequired": 0,
