@@ -7,7 +7,7 @@
             "questionText": "question 1234",
             "questionType": "combo",
             "combo": [{
-                    "optionId": 1234,
+                    "idOption": 1234,
                     "optionText": "opcion 1",
                     "optionCheck": 1,
                     "idQuestionLink": [{
@@ -20,12 +20,12 @@
 
                 },
                 {
-                    "optionId": 12345,
+                    "idOption": 12345,
                     "optionText": "opcion 2",
                     "optionCheck": 0
                 },
                 {
-                    "optionId": 12346,
+                    "idOption": 12346,
                     "optionText": "opcion 3",
                     "optionCheck": 1
                 }
