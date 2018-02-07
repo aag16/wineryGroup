@@ -4,37 +4,68 @@
             "idQuestion": 12,
             "isHiden": 0,
             "isRequired": 0,
-            "masterId": "",
             "questionText": "question 1234",
             "questionType": "combo",
-            "responseText": "",
             "combo": [{
+                    "optionId": 1234,
                     "optionText": "opcion 1",
-                    "optionCheck": 1
+                    "optionCheck": 1,
+                    "idQuestionLink": [{
+                            "idQuestion": 5
+                        },
+                        {
+                            "idQuestion": 7
+                        }
+                    ]
+
                 },
                 {
+                    "optionId": 12345,
                     "optionText": "opcion 2",
                     "optionCheck": 0
                 },
                 {
+                    "optionId": 12346,
                     "optionText": "opcion 3",
                     "optionCheck": 1
                 }
             ]
         },
+
         {
             "error": "",
             "idQuestion": 13,
             "isHiden": 0,
             "isRequired": 0,
-            "masterId": "",
             "questionText": "question 4567",
             "questionType": "alfa",
-            "responseText": "response 4567",
-            "combo": {}
+            "responseText": "response 4567"
+        },
+        {
+            "error": "",
+            "idQuestion": 12,
+            "isHiden": 0,
+            "isRequired": 0,
+            "questionText": "question 1234",
+            "questionType": "master",
+            "master": [{
+                    "idGroup": 25,
+                    "IdDetail": 1,
+                    "slaverTitle": "slaver Title 1"
+                },
+                {
+                    "idGroup": 25,
+                    "IdDetail": 2,
+                    "slaverTitle": "slaver Title 12"
+                },
+                {
+                    "idGroup": 25,
+                    "IdDetail": 3,
+                    "slaverTitle": "slaver Title 123"
+                }
+            ]
         }
     ]
-
 }
 
 
